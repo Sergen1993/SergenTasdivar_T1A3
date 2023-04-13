@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap);
+
+/* Head component */
+html {
+    font-family: 'Prompt', sans-serif;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a {
+    text-decoration:none;
+    font-size: 1.25rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-inline-width: 3px;
+    padding: 0.1rem 0.2rem;
+
+}
+
+header h1{
+font-weight: bolder;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4rem 0 4rem;
+}
+
+/* Main Component */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2rem 2rem;
+    margin-bottom: 1vh;
+    margin-left:6vw; 
+    margin-right:6vw;
+    
+}
+
+section {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+ ul {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    column-count: 2;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+
+
+
+
+
+/* Footer component */
+
+
+.copyright{
+    float:right;
+    padding: 8rem 0rem 0rem 0rem;
+    font-size:x-small;
+}
+
+/* Desktop view */
+
+@media only screen and (min-width: 900px) {
+
+    .about-section {
+        margin-left:20vw; 
+        margin-right:20vw;
+        
+    }
+
+    ul {
+        margin-left:20vw; 
+        margin-right:20vw;
+    }
+
+}
