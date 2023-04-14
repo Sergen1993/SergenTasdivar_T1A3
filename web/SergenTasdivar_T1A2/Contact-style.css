@@ -36,10 +36,9 @@ section{
     border-radius: 5px;
     border: 2px solid black;
     padding-bottom:3rem;
-    max-width: 15vw;
+    max-width: 50vw;
     text-align: center;
-    margin-left:auto; 
-    margin-right:auto;
+    margin: auto;
 }
 
 .contact_link:link {
@@ -71,4 +70,14 @@ section{
     float:right;
     padding: 11rem 0rem 0rem 0rem;
     font-size:x-small;
+}
+
+/* Desktop view */
+
+@media only screen and (min-width: 800px) {
+
+section {
+    max-width: 40%;
+}
+
 }
