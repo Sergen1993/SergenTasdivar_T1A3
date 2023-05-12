@@ -1,43 +1,116 @@
-# Description #
-This is a simple delivery app written in Python that allows users to browse through a product gallery, add items to their cart, and checkout. The app does not include features such as drop shipping, delivery details, and payment processing.
+# Sneaker Shop Terminal App
+
+This is a simple terminal application that allows users to view and purchase sneakers. Users can view the available products, add them to the cart, view the cart, and proceed to checkout. The application is built using Python and utilizes various programming concepts and packages.
+
+## Installation
+
+To install the application, follow these steps:
+
+1. Clone the repository: `git clone <repository-url>`
+2. Change into the project directory: `cd sneaker-shop-terminal-app`
+3. Install the required packages: `pip install tabulate termcolor`
+
+## Dependencies
+
+The application requires the following Python packages:
+
+- `tabulate`: Used to format the product gallery and cart table.
+- `termcolor`: Used to add color to the terminal output.
+
+## System Requirements
+
+The application has the following system requirements:
+
+- Python 3.6 or higher installed
+- Terminal or command prompt
+
+## Usage
+
+To run the application, navigate to the project directory and execute the following command: `python3 sneaker_app.py`
 
 
-### Source Control Repository ###
-The source code for this app can be found on GitHub at [insert link here].
+## Features
 
-### Code Styling ###
-This application will adhere to the PEP 8 style guide.
+The application includes the following features:
 
-# Features #
-### Product Gallery ###
-The product gallery allows users to browse through a list of available products.
-Each product is displayed with its name, price, and image.
-Users can select a product to view more details.
-Users can add a selected product to the cart.
-### Cart ###
-The cart allows users to add items to their cart while browsing through the product gallery.
-Users can view the items in their cart and the total price of their cart at any time.
-Users can remove items from their cart.
-### Checkout ###
-The checkout allows users to enter their personal information and shipping details.
-Users can review their order and make any necessary changes before submitting the order.
-Upon submission, the app displays a confirmation message and clears the cart.
+1. **View Products**: Allows users to view the available sneakers and their prices.
+2. **Add Product to Cart**: Enables users to add a selected product to their cart.
+3. **View Cart**: Displays the items in the cart, along with their prices and quantities.
+4. **Checkout**: Allows users to proceed with the purchase and complete the checkout process.
 
-#### I will be using Trello to track the progress of the implementation plan. ####
-**Screenshots of the Trello board will be attached to the documentation.**
+## Implementation Plan
 
-## Help Documentation ##
-### Installation ###
-1. Clone the repository to your local machine.
-2. Install Python 3 if it is not already installed.
-3. Install the following packages using pip: pillow
-4. Run the application using the following command in the terminal:
-> `python3 SergenTasdivar_T1A3.py`
-### Dependencies ###
-- Python 3
-- pillow
-### System/Hardware Requirements ###
-This app can run on any system that supports Python 3.
+The following is the implementation plan for each feature:
 
-### Command Line Arguments ###
-N/A
+1. View Products:
+   - Retrieve the product data from the `products.py` file.
+   - Format and display the product gallery table using the `tabulate` package.
+   - Implement error handling for invalid inputs.
+
+2. Add Product to Cart:
+   - Prompt the user to select a product from the product gallery.
+   - Ask for the desired quantity of the selected product.
+   - Add the selected product and quantity to the cart.
+   - Display a success message upon adding to the cart.
+   - Implement error handling for invalid inputs.
+
+3. View Cart:
+   - Format and display the cart table using the `tabulate` package.
+   - Calculate and display the total price.
+   - Implement error handling for an empty cart.
+
+4. Checkout:
+   - Display the cart items and total price.
+   - Prompt the user to confirm the checkout.
+   - If confirmed, display a thank you message and exit the application.
+   - If not confirmed, cancel the checkout and return to the main menu.
+
+The implementation plan will be tracked using a project management platform, such as Trello or GitHub Projects. Screenshots and progress updates will be shared in the project management platform.
+
+## Code Style
+
+The code follows the PEP 8 style guide for Python. It adheres to the recommended coding conventions and style practices to ensure consistency and readability.
+
+## Help Documentation
+
+To use and install the application, follow these instructions:
+
+1. Installation:
+   - Clone the repository: `git clone <repository-url>`
+   - Change into the project directory: `cd sneaker-shop-terminal-app`
+   - Install the required packages: `pip install tabulate termcolor`
+
+2. Dependencies:
+   - The application requires the following Python packages: `tabulate` and `termcolor`.
+   - Install the dependencies using the provided installation instructions.
+
+3. System Requirements:
+   - Ensure that Python 3.6 or higher is installed on your system.
+   - Use a terminal or command prompt to run the application.
+
+4. Command Line Usage:
+   - Navigate to the project directory.
+   - Run the application using the command: `python sneaker_app.py`
+
+## Source Control
+
+The source code for this
+application is hosted on a source control repository. You can access the repository at [GitHub](https://github.com/Sergen1993/SergenTasdivar_T1A3.git).
+
+## Tests
+
+The application includes the following tests:
+
+1. **View Products Test**:
+   - Test Case 1: User selects "View Products" from the menu.
+     - Expected Result: The product gallery is displayed correctly.
+   - Test Case 2: User selects "View Products" with no products available.
+     - Expected Result: An appropriate message is displayed indicating no products are available.
+
+2. **Add to Cart Test**:
+   - Test Case 1: User selects "Add Product to Cart" and provides valid inputs.
+     - Expected Result: The product is added to the cart successfully.
+   - Test Case 2: User selects "Add Product to Cart" and provides invalid inputs.
+     - Expected Result: An error message is displayed, and the user is prompted to enter valid inputs.
+
+These tests cover important features of the application and verify that it is running as expected.
