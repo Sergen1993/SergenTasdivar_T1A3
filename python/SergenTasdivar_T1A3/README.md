@@ -22,31 +22,7 @@ Users can remove items from their cart.
 The checkout allows users to enter their personal information and shipping details.
 Users can review their order and make any necessary changes before submitting the order.
 Upon submission, the app displays a confirmation message and clears the cart.
-## Implementation Plan ##
-### Feature 1: Product Gallery ###
-- Create a list of products with their names, prices, and images
-- Write a function to display the product gallery
-- Write a function to display more details for a selected product
-- Write a function to add a selected product to the cart
-- Write a function to handle any errors that may occur
-- **Prioritization: High**
-- **Deadline: 1 days**
-### Feature 2: Cart ###
-- Write a function to display the contents of the cart
-- Write a function to add an item to the cart
-- Write a function to remove an item from the cart
-- Write a function to update the total price of the cart
-- Write a function to handle any errors that may occur
-- **Prioritization: Medium**
-- **Deadline: 2 days**
-### Feature 3: Checkout ###
-- Write a function to display the checkout form
-- Write a function to handle the submission of the checkout form
-- Write a function to display a confirmation message
-- Write a function to clear the cart upon submission
-- Write a function to handle any errors that may occur
-- **Prioritization: Low**
-- **Deadline: 3 days**
+
 #### I will be using Trello to track the progress of the implementation plan. ####
 **Screenshots of the Trello board will be attached to the documentation.**
 
