@@ -105,6 +105,7 @@ application is hosted on a source control repository. You can access the reposit
 ## Tests
 
 The application includes the following tests:
+![Tests flowchart](/images/t1a3_tests.png)
 
 1. **View Products Test**:
    - Test Case 1: User selects "View Products" from the menu.
