@@ -72,11 +72,11 @@ The implementation plan will be tracked using a project management platform call
 
 
 
-## Code Style
+## Code Style ##
 
 The code follows the PEP 8 style guide for Python. It adheres to the recommended coding conventions and style practices to ensure consistency and readability.
 
-## Help Documentation
+## Help Documentation ##
 
 To use and install the application, follow these instructions:
 
