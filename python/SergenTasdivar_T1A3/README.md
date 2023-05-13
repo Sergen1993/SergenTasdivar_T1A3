@@ -1,8 +1,8 @@
-# Sneaker Shop Terminal App
+# Sneaker Shop Terminal App #
 
 This is a simple terminal application that allows users to view and purchase sneakers. Users can view the available products, add them to the cart, view the cart, and proceed to checkout. The application is built using Python and utilizes various programming concepts and packages.
 
-## Installation
+## Installation ##
 
 To install the application, follow these steps:
 
@@ -10,7 +10,7 @@ To install the application, follow these steps:
 2. Change into the project directory: `cd SergenTadivar_T1A3`
 3. Install the required packages: `pip install tabulate termcolor`
 
-## Dependencies
+## Dependencies ##
 
 The application requires the following Python packages:
 
