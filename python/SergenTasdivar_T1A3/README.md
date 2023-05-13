@@ -65,7 +65,12 @@ The following is the implementation plan for each feature:
    - If confirmed, display a thank you message and exit the application.
    - If not confirmed, cancel the checkout and return to the main menu.
 
-The implementation plan will be tracked using a project management platform, such as Trello. Screenshots and progress updates will be shared in the project management platform.
+The implementation plan will be tracked using a project management platform called trello
+![Trello board checklist](/images/t1a3_R7.png)
+
+ https://trello.com/invite/b/FKnqSZ0Z/ATTI1b133a953da8ecbfb119feb695cf51ecEDAB8650/game-development-template
+
+
 
 ## Code Style
 
