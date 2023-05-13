@@ -6,8 +6,8 @@ This is a simple terminal application that allows users to view and purchase sne
 
 To install the application, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
-2. Change into the project directory: `cd sneaker-shop-terminal-app`
+1. Clone the repository: `git clone <https://github.com/Sergen1993/SergenTasdivar_T1A3.git>`
+2. Change into the project directory: `cd SergenTadivar_T1A3`
 3. Install the required packages: `pip install tabulate termcolor`
 
 ## Dependencies
@@ -65,7 +65,7 @@ The following is the implementation plan for each feature:
    - If confirmed, display a thank you message and exit the application.
    - If not confirmed, cancel the checkout and return to the main menu.
 
-The implementation plan will be tracked using a project management platform, such as Trello or GitHub Projects. Screenshots and progress updates will be shared in the project management platform.
+The implementation plan will be tracked using a project management platform, such as Trello. Screenshots and progress updates will be shared in the project management platform.
 
 ## Code Style
 
@@ -76,8 +76,8 @@ The code follows the PEP 8 style guide for Python. It adheres to the recommended
 To use and install the application, follow these instructions:
 
 1. Installation:
-   - Clone the repository: `git clone <repository-url>`
-   - Change into the project directory: `cd sneaker-shop-terminal-app`
+   - Clone the repository: `git clone <https://github.com/Sergen1993/SergenTasdivar_T1A3.git>`
+   - Change into the project directory: `cd SergenTasdivar_T1A3`
    - Install the required packages: `pip install tabulate termcolor`
 
 2. Dependencies:
