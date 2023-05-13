@@ -97,12 +97,12 @@ To use and install the application, follow these instructions:
    - Navigate to the project directory.
    - Run the application using the command: `python sneaker_app.py`
 
-## Source Control
+## Source Control ##
 
 The source code for this
 application is hosted on a source control repository. You can access the repository at [GitHub](https://github.com/Sergen1993/SergenTasdivar_T1A3.git).
 
-## Tests
+## Tests ##
 
 The application includes the following tests:
 ![Tests flowchart](/images/t1a3_tests.png)
