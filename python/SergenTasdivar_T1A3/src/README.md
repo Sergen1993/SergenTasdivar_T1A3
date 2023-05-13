@@ -1,8 +1,9 @@
 # **Sergen Tasdivar**  
 **T1A3**  
-**https://youtu.be/WvyH95nZEN4**  
-**https://trello.com/invite/b/FKnqSZ0Z/ATTI1b133a953da8ecbfb119feb695cf51ecEDAB8650/game-development-template**  
+**https://youtu.be/hC3NqucfLoE**  
 **https://github.com/Sergen1993/SergenTasdivar_T1A3.git**  
+**https://trello.com/invite/b/FKnqSZ0Z/ATTI1b133a953da8ecbfb119feb695cf51ecEDAB8650/game-development-template**  
+
 
 
 **13 May 2023**  
