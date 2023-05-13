@@ -17,19 +17,19 @@ The application requires the following Python packages:
 - `tabulate`: Used to format the product gallery and cart table.
 - `termcolor`: Used to add color to the terminal output.
 
-## System Requirements
+## System Requirements ##
 
 The application has the following system requirements:
 
 - Python 3.6 or higher installed
 - Terminal or command prompt
 
-## Usage
+## Usage ##
 
 To run the application, navigate to the project directory and execute the following command: `python3 sneaker_app.py`
 
 
-## Features
+## Features ##
 
 The application includes the following features:
 
@@ -38,7 +38,7 @@ The application includes the following features:
 3. **View Cart**: Displays the items in the cart, along with their prices and quantities.
 4. **Checkout**: Allows users to proceed with the purchase and complete the checkout process.
 
-## Implementation Plan
+## Implementation Plan ##
 
 The following is the implementation plan for each feature:
 
