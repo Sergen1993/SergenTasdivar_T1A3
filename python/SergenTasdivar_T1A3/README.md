@@ -1,8 +1,9 @@
 # **Sergen Tasdivar**  
 **T1A3**  
-**https://youtu.be/WvyH95nZEN4**  
-**https://trello.com/invite/b/FKnqSZ0Z/ATTI1b133a953da8ecbfb119feb695cf51ecEDAB8650/game-development-template**  
+**https://youtu.be/hC3NqucfLoE**  
 **https://github.com/Sergen1993/SergenTasdivar_T1A3.git**  
+**https://trello.com/invite/b/FKnqSZ0Z/ATTI1b133a953da8ecbfb119feb695cf51ecEDAB8650/game-development-template**  
+
 
 
 **13 May 2023**  
@@ -75,7 +76,7 @@ The following is the implementation plan for each feature:
    - If not confirmed, cancel the checkout and return to the main menu.
 
 The implementation plan will be tracked using a project management platform called trello
-![Trello board checklist](/images/t1a3_R7.png)
+![Trello board checklist](src/images/t1a3_R7.png)
 
  https://trello.com/invite/b/FKnqSZ0Z/ATTI1b133a953da8ecbfb119feb695cf51ecEDAB8650/game-development-template
 
@@ -114,7 +115,7 @@ application is hosted on a source control repository. You can access the reposit
 ## Tests ##
 
 The application includes the following tests:
-![Tests flowchart](/images/t1a3_tests.png)
+![Tests flowchart](src/images/t1a3_tests.png)
 
 1. **View Products Test**:
    - Test Case 1: User selects "View Products" from the menu.
